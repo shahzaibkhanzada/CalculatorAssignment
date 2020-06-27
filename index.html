@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Standard Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+     
+  </head>
+
+<body>
+ 
+   <div class="container">
+           <div class="row">
+               <div class="col-sm-12 col-md-12 col-lg-12 p-2">
+                 <h1 class="text-center text-primary">Standard Calculator</h1>
+                </div>
+              </div> 
+
+ 
+       <div class="row">
+               <div class="col-sm-3 col-md-3 col-lg-3 p-2 text-center">
+                 <h1 style="font-size: 50px;"class="text-center text-primary">Name: SHAHZAIB RASOOL KHAN</h1><br>
+                <h1 style="font-size: 50px;"class="text-center text-primary">ID: WM10502</h1>
+                </div>
+              
+               <div class="bg-primary col-sm-5 col-md-5 col-lg-5 p-2 text-center m-auto border border-dark"> 
+                <div>
+                 <input id="result" class="bg-light text-primary" type="text">
+                </div>
+
+                <div>
+                 <button class="clearBtn bg-warning text-white" onclick="clearResult()">C</button>
+                 </div>
+            
+                <div>
+                 <button class="btnNumber bg-danger text-white" onclick="getNumber('7')">7</button>
+                 <button class="btnNumber bg-danger text-white" onclick="getNumber('8')">8</button>
+                 <button class="btnNumber bg-danger text-white" onclick="getNumber('9')">9</button>
+                 <button class="btnNumber bg-warning text-white" onclick="getNumber('*')">X</button>
+                 </div>
+                  
+                  <div>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('4')">4</button>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('5')">5</button>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('6')">6</button>
+                     <button class="btnNumber bg-warning text-white" onclick="getNumber('-')">-</button>
+                 </div>
+                
+                  <div>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('1')">1</button>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('2')">2</button>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('3')">3</button>
+                     <button class="btnNumber bg-warning text-white" onclick="getNumber('+')">+</button>
+                 </div>
+               
+                 <div>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('0')">0</button>
+                     <button class="btnNumber bg-danger text-white" onclick="getNumber('.')">.</button>
+                     <button class="btnNumber bg-success text-white" onclick="getResult()">=</button>
+                     <button class="btnNumber bg-warning text-white" onclick="getNumber('/')">÷</button>
+                 </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>

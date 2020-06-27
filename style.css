@@ -1,0 +1,31 @@
+
+body{
+
+ background-color: lightblue !important;
+
+ }
+
+.btnNumber, 
+.clearBtn {
+
+ width: 100px;
+ height: 84px;
+ margin: 3px;
+ font-size: 50px;
+
+  }
+
+#result, 
+.clearBtn{
+
+ width: 94%;
+
+ }
+
+#result {
+
+ font-size: 50px;
+
+ }
+
+
